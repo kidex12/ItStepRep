@@ -21,9 +21,9 @@ class Parrot(Animal):
     def make_sound(self):
         return "Привіт!"
 
-dog = Dog("Рекс", 5)
-cat = Cat("Мурка", 3)
-parrot = Parrot("Кеша", 2)
+dog = Dog("Бобик", 5)
+cat = Cat("Мурчика", 3)
+parrot = Parrot("Крош", 2)
 
 print(dog.get_info())
 print(dog.make_sound())
